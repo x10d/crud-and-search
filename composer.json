@@ -1,0 +1,15 @@
+{
+    "name": "x10d/mediaexpert",
+    "description": "MediaExpert zadanie 2",
+    "type": "project",
+    "require": {
+        "php": "7.*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
